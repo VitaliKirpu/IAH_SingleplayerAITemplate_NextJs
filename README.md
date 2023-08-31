@@ -6,7 +6,7 @@ For programmers seeking a competitive challenge, IAH offers algorithmic multipla
 
 ## Getting Started
 
-First, run the development server:
+Get your project setup by getting stuff from package then run the development server:
 
 ```bash
 npm run dev
