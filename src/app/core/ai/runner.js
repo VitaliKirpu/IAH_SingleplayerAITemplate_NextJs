@@ -2,7 +2,7 @@ import {addLog, updatePlayerState, UpdatePlayerState} from "@/app/actions";
 import { getPlayerState } from "./../service";
 
 
-function aIRunner(dispatch) {
+function aiRunner(dispatch) {
     const intervalId = setInterval(async function() {
 
         dispatch(addLog("AI Is Running..."));
@@ -17,4 +17,4 @@ function aIRunner(dispatch) {
     return intervalId;
 }
 
-export default aIRunner;
+export default aiRunner;
