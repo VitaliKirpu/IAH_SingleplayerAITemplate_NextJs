@@ -1,13 +1,13 @@
 
 const apiKey = "<yourKey>";
 
-export async function GetPlayerState() {
-    return await Get("/v1/playerstate");
+export async function getPlayerState() {
+    return await get("/v1/playerstate");
 }
 
 
 
-export async function Get(requestName)
+export async function get(requestName)
 {
     try {
         const response = await fetch(requestName, {

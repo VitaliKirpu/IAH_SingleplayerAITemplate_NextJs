@@ -1,7 +1,7 @@
 import styles from './initializer.module.css'
 import { useDispatch, useSelector } from 'react-redux';
 import {initSystem, addLog} from './../actions';
-import AIRunner from "@/app/core/ai/runner";
+import aIRunner from "@/app/core/ai/runner";
 
 
 export default function Initializer() {
@@ -18,7 +18,7 @@ export default function Initializer() {
 
             dispatch(addLog("Starting AI..."));
 
-            const intervalId = AIRunner(dispatch);
+            const intervalId = aIRunner(dispatch);
 
             return () => clearInterval(intervalId);
 
