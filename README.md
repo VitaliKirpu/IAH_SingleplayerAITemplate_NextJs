@@ -33,3 +33,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Make sure that the game client is running; the default port is 6800; if you changed which port the game client service is running, please edit this NextJs rewrite accordingly.
 https://github.com/VitaliKirpu/IAH_SingleplayerAITemplate_NextJs/blob/4f785efaf18bda5448280a493f7b88992985ba92/next.config.js#L6
 
+### Few Notes
+Currently, it's client-side rendering; however, if you want to create an account management system, you need to restructure some components.
+
