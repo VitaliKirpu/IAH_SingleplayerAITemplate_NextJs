@@ -26,8 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 2. Launch IAH: INTERNET WAR Game. The default AI Port is 6800
 3. You will have to build quite a lot, but this is an excellent base to get you started.
   https://github.com/VitaliKirpu/IAH_SingleplayerAITemplate_NextJs/blob/912ced1efe145a7232c69d5adc682e016b11c38f/src/app/core/ai/runner.js#L5
-5. I have only implemented **/v1/playerstate** , you can see whole API Documentation here on the C# template documentation: https://github.com/VitaliKirpu/IAH_SinglePlayerAITemplate/wiki/IAH:-INTERNET-WAR-%7C-SINGLEPLAYER-AI-API or on the main website HTTPS://IAMHACKER.CC
-https://github.com/VitaliKirpu/IAH_SingleplayerAITemplate_NextJs/blob/912ced1efe145a7232c69d5adc682e016b11c38f/src/app/core/service.js#L4C1-L4C1
+5. I have only implemented **/v1/playerstate** , you can see whole API Documentation here on the C# template documentation: https://github.com/VitaliKirpu/IAH_SinglePlayerAITemplate/wiki/IAH:-INTERNET-WAR-%7C-SINGLEPLAYER-AI-API
 
 ### Troubleshooting
 - Can't connect to the game client.
